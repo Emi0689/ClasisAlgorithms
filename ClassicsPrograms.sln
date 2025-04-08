@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringLibrary", "StringLibr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{9675D75C-39A9-4A1A-B739-8725CA461782}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchAndShort", "SearchAndShort\SearchAndShort.csproj", "{8BE3B962-734A-429E-893E-BA599F7FE836}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchAndSort", "SearchAndShort\SearchAndSort.csproj", "{8BE3B962-734A-429E-893E-BA599F7FE836}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Threads", "Threads\Threads.csproj", "{B628A8B3-6051-4EC4-914A-C037974C4570}"
 EndProject

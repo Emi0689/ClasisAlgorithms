@@ -10,7 +10,7 @@ namespace SearchAndShort
             try
             {
                 if (elemAOrdenar.Count() == 0)
-                    return elemAOrdenar; //devuelvo vacio para cortar la recursión
+                    return elemAOrdenar; //return empty
 
                 int[] ListaIzquierda = null;
                 int[] ListaDerecha = null;
@@ -28,7 +28,7 @@ namespace SearchAndShort
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Explotó");
+                Console.WriteLine("oh no!");
                 const int[] V = null;
                 return V;
             }
