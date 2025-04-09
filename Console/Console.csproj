@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DesignPatterns\DesignPatterns.csproj" />
-    <ProjectReference Include="..\SearchAndShort\SearchAndShort.csproj" />
     <ProjectReference Include="..\StringLibrary\StringLibrary.csproj" />
   </ItemGroup>
 
