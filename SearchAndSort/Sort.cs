@@ -6,9 +6,9 @@ using System.Text;
 
 namespace SearchAndShort
 {
-    public class Sort
+    public static class Sort
     {
-        static public int[] OrderByBubbleSort(int[] elemToSort)
+        public static int[] OrderByBubbleSort(int[] elemToSort)
         {
             try
             {

@@ -9,11 +9,11 @@ namespace ProgramasClasicos
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please add a list of element separated by comas: \n\r");
+            Console.WriteLine("Por favor ingrese una lista de números separados por comas: \n\r");
             string paraOrdenar = Console.ReadLine();
             string[] listaAOrdenar = paraOrdenar.Trim().Split(",");
             int[] elemAOrdenar = listaAOrdenar.Select(x => Convert.ToInt32(x)).ToArray();
-            StringSmart.PrintString(Sort.OrderByBubbleSort(elemAOrdenar));
+            StringSmart.printString(Short.OrderByBurbujeo(elemAOrdenar));
             Console.ReadLine();
         }
     }
