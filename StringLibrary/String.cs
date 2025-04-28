@@ -8,15 +8,6 @@ namespace StringLibrary
 {
     public class StringSmart
     {
-        static private bool Palindromo(string texto)
-        {
-            for (int i = 0; i < (texto.Length / 2); i++)
-            {
-                if (texto[i] != texto[texto.Length - i])
-                    return false;
-            }
-            return true;
-        }
 
         static private string Duplicados(string texto)
         {
