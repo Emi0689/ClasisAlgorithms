@@ -62,7 +62,7 @@ namespace ProgramasClasicos
             }
         }
 
-        class ProgramFactory
+        class ProgramFactory2
         {
             static void Main(string[] args)
             {
