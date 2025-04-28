@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns
+namespace DesignPatterns.FactoryMethod1
 {
     public interface IVehicle
     {

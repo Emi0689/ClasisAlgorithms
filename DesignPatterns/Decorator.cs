@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns
+namespace DesignPatterns.Decorator
 {
     // The base ComponentDecorator interface defines operations that can be altered by
     // decorators.
