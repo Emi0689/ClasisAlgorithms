@@ -64,15 +64,15 @@ namespace DesignPatterns.FactoryMethod2
             // the Chicken lay a egg
             Egg egg = motherChicken.Lay(() => new Chicken());
 
-            Console.WriteLine("Un huevo fue puesto.");
+            Console.WriteLine("An Egg was laid.");
 
             // Now we Hatch the Egg
             IBird babyChicken = egg.Hatch();
 
-            Console.WriteLine("¡Un nuevo pollito ha nacido!");
+            Console.WriteLine("A new chicken was born!");
 
             // We check it
-            Console.WriteLine($"El nuevo pájaro es un {babyChicken.GetType().Name}.");
+            Console.WriteLine($"The new birds is a {babyChicken.GetType().Name}.");
         }
     }
 }

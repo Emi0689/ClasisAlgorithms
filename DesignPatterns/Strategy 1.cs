@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Transactions;
 
-namespace DesignPatterns
+namespace DesignPatterns.Strategy1
 {
     class ContextStrategy
     {
@@ -81,7 +81,7 @@ namespace DesignPatterns
         }
     }
 
-    class ProgramStrategy
+    class ProgramStrategy1
     {
         static void Main(string[] args)
         {

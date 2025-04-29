@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns.Decorator
+namespace DesignPatterns.Decorator1
 {
     // The base ComponentDecorator interface defines operations that can be altered by
     // decorators.
@@ -96,7 +96,7 @@ namespace DesignPatterns.Decorator
         }
     }
 
-    class Program
+    class ProgramDecorator
     {
         static void Main(string[] args)
         {
